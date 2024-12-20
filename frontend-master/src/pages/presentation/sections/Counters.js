@@ -35,7 +35,7 @@ function Counters() {
               count={100}
               suffix="+"
               title="Reviewed Cafes"
-              description="From buttons, to inputs, navbars, alerts or cards, you are covered"
+              description="Explore the Drip Journal's Top Recommendations and hidden gems.  "
             />
           </Grid>
           <Grid item xs={12} md={4} display="flex">
@@ -45,7 +45,7 @@ function Counters() {
               count={5}
               suffix="+"
               title="Countries"
-              description="Mix the sections, change the colors and unleash your creativity"
+              description="Workable Cafes with tasty coffee across the world."
             />
             <Divider orientation="vertical" sx={{ display: { xs: "none", md: "block" }, ml: 0 }} />
           </Grid>
@@ -54,7 +54,7 @@ function Counters() {
               color="success"
               count={41}
               title="Cities"
-              description="Save 3-4 weeks of work when you use our pre-made pages for your website"
+              description="We know how hard it is to find a good spot in a big city."
             />
           </Grid>
         </Grid>
