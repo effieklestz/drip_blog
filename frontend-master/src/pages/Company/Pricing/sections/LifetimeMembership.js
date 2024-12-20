@@ -37,11 +37,10 @@ function LifetimeMembership() {
           sx={{ mx: "auto", mb: 8, textAlign: "center" }}
         >
           <MKTypography variant="h2" mb={1}>
-            Best no-tricks pricing
+            The Digital Nomad Ebook
           </MKTypography>
           <MKTypography variant="body1" color="text">
-            If you&apos;re not satisfied, contact us within the first 30 days and we&apos;ll send
-            you a full refund.
+            Our Guide with more 10 tips and best practices to becoming a digital nomad
           </MKTypography>
         </Grid>
         <Grid container item xs={12}>
@@ -52,10 +51,10 @@ function LifetimeMembership() {
                   <MKTypography variant="h3" mb={1}>
                     Lifetime Membership
                   </MKTypography>
-                  <MKTypography variant="body2" color="text" fontWeight="regular">
+                  {/* <MKTypography variant="body2" color="text" fontWeight="regular">
                     You have Free Unlimited Updates and Premium Support on each package. You also
                     have 30 days to request a refund.
-                  </MKTypography>
+                  </MKTypography> */}
                   <Grid container item xs={12} lg={3} sx={{ mt: 6, mb: 1 }}>
                     <MKTypography variant="h6">What&apos;s included</MKTypography>
                   </Grid>
@@ -66,7 +65,7 @@ function LifetimeMembership() {
                           <Icon sx={{ fontWeight: "bold" }}>done</Icon>
                         </MKTypography>
                         <MKTypography variant="body2" color="text" fontWeight="regular" pl={1}>
-                          Private code access
+                          10 Tips to Working and traveling
                         </MKTypography>
                       </MKBox>
                       <MKBox display="flex" py={1} pr={1} lineHeight={0}>
@@ -74,7 +73,7 @@ function LifetimeMembership() {
                           <Icon sx={{ fontWeight: "bold" }}>done</Icon>
                         </MKTypography>
                         <MKTypography variant="body2" color="text" fontWeight="regular" pl={1}>
-                          Free entry to all repositories
+                          Stories from our experience
                         </MKTypography>
                       </MKBox>
                     </Grid>
@@ -84,7 +83,7 @@ function LifetimeMembership() {
                           <Icon sx={{ fontWeight: "bold" }}>done</Icon>
                         </MKTypography>
                         <MKTypography variant="body2" color="text" fontWeight="regular" pl={1}>
-                          Pro member accounts
+                          Best Websites for digital nomads
                         </MKTypography>
                       </MKBox>
                       <MKBox display="flex" py={1} pr={1} lineHeight={0}>
@@ -92,7 +91,7 @@ function LifetimeMembership() {
                           <Icon sx={{ fontWeight: "bold" }}>done</Icon>
                         </MKTypography>
                         <MKTypography variant="body2" color="text" fontWeight="regular" pl={1}>
-                          Support team full assist
+                          Support
                         </MKTypography>
                       </MKBox>
                     </Grid>
@@ -105,14 +104,23 @@ function LifetimeMembership() {
                     Pay once, own it forever
                   </MKTypography>
                   <MKTypography variant="h1">
-                    <MKBox component="small">$</MKBox>399
+                    <MKBox component="small">$</MKBox>4.99
                   </MKTypography>
-                  <MKButton variant="gradient" color="error" size="large" sx={{ my: 2 }}>
+                  <MKButton
+                    // eslint-disable-next-line react/no-string-refs
+                    onClick={() =>
+                      (window.location.href = "https://buy.stripe.com/bIYaFc7kBbLvdYQcMM")
+                    }
+                    variant="gradient"
+                    color="error"
+                    size="large"
+                    sx={{ my: 2 }}
+                  >
                     Get Access
                   </MKButton>
-                  <MKTypography display="block" variant="button" color="text" fontWeight="regular">
+                  {/* <MKTypography display="block" variant="button" color="text" fontWeight="regular">
                     Get a free sample (20MB)
-                  </MKTypography>
+                  </MKTypography> */}
                 </MKBox>
               </Grid>
             </Grid>

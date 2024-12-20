@@ -24,30 +24,17 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
-// import NavbarLight from "./sections/LightNav";
+
 import DefaultFooter from "examples/Footers/DefaultFooter";
 // import FilledInfoCard from "examples/Cards/InfoCards/FilledInfoCard";
 
 // Presentation page sections
 
 import Counters from "pages/presentation/sections/Counters";
-// import Information from "pages/presentation/sections/Information";
-// import DesignBlocks from "pages/presentation/sections/DesignBlocks";
-// import AuthPages from "pages/presentation/sections/AuthPages";
-// import Pages from "pages/presentation/sections/Pages";
-// import Testimonials from "pages/presentation/sections/Testimonials";
-// import Pricing from "pages/presentation/sections/Pricing";
-// import DripMap from "./sections/Map";
 
-// Presentation page components
-// import BuiltByDevelopers from "pages/presentation/components/BuiltByDevelopers";
-
-// Routes
 import routes from "routes";
 import footerRoutes from "footer.routes";
 
-// Images
-// import bgImage from "assets/images/bg-presentation.jpg";
 import HeroImage from "assets/images/Hero-main.jpg";
 // import HighlightedCafes from "./sections/HighlightedCafes";
 
@@ -80,7 +67,7 @@ function Presentation() {
         action={{
           type: "external",
           route: "https://cinsights.io",
-          label: "Learn More here",
+          label: "Learn More",
           color: "default",
         }}
         transparent
