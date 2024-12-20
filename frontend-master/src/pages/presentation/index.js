@@ -80,7 +80,7 @@ function Presentation() {
         action={{
           type: "external",
           route: "https://cinsights.io",
-          label: "Learn More",
+          label: "Learn More here",
           color: "default",
         }}
         transparent
