@@ -26,7 +26,7 @@ import MKTypography from "components/MKTypography";
 
 function LifetimeMembership() {
   return (
-    <MKBox component="section" py={{ xs: 12, lg: 18 }}>
+    <MKBox component="section" py={{ xs: 12, lg: 12 }}>
       <Container>
         <Grid
           container
@@ -34,7 +34,7 @@ function LifetimeMembership() {
           xs={12}
           md={6}
           justifyContent="center"
-          sx={{ mx: "auto", mb: 8, textAlign: "center" }}
+          sx={{ mx: "auto", mb: 4, textAlign: "center" }}
         >
           <MKTypography variant="h2" mb={1}>
             The Digital Nomad Ebook
@@ -49,7 +49,7 @@ function LifetimeMembership() {
               <Grid item xs={12} lg={8}>
                 <MKBox py={3} px={4}>
                   <MKTypography variant="h3" mb={1}>
-                    Lifetime Membership
+                    Pay once, own it forever
                   </MKTypography>
                   {/* <MKTypography variant="body2" color="text" fontWeight="regular">
                     You have Free Unlimited Updates and Premium Support on each package. You also
@@ -87,12 +87,12 @@ function LifetimeMembership() {
                         </MKTypography>
                       </MKBox>
                       <MKBox display="flex" py={1} pr={1} lineHeight={0}>
-                        <MKTypography variant="body1" color="dark">
+                        {/* <MKTypography variant="body1" color="dark">
                           <Icon sx={{ fontWeight: "bold" }}>done</Icon>
-                        </MKTypography>
-                        <MKTypography variant="body2" color="text" fontWeight="regular" pl={1}>
+                        </MKTypography> */}
+                        {/* <MKTypography variant="body2" color="text" fontWeight="regular" pl={1}>
                           Support
-                        </MKTypography>
+                        </MKTypography> */}
                       </MKBox>
                     </Grid>
                   </Grid>
@@ -100,9 +100,9 @@ function LifetimeMembership() {
               </Grid>
               <Grid item xs={12} lg={4}>
                 <MKBox p={3} textAlign="center">
-                  <MKTypography variant="h6" mt={{ xs: 0, sm: 3 }}>
+                  {/* <MKTypography variant="h6" mt={{ xs: 0, sm: 3 }}>
                     Pay once, own it forever
-                  </MKTypography>
+                  </MKTypography> */}
                   <MKTypography variant="h1">
                     <MKBox component="small">$</MKBox>4.99
                   </MKTypography>

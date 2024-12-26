@@ -38,7 +38,7 @@ function BlogBox2() {
         </Grid>
         <Grid container spacing={4} mt={3}>
           <Grid item xs={12} lg={4}>
-            <Link to="/pages/blogs/singlearticle">
+            <Link to="DripApp/src/pages/Blogs/SingleArticle/index.js">
               <SimpleBackgroundCard
                 image={post1}
                 title="Southern Spain"
